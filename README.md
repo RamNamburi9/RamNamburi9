@@ -2,7 +2,7 @@
 
 # Hi, I'm Ram Namburi 👋
 
-### Software engineer building practical AI systems, developer tools, and auditable .NET applications
+### Software engineer building practical AI systems, local-first products, developer tools, and auditable .NET applications
 
 [![GitHub](https://img.shields.io/badge/GitHub-RamNamburi9-181717?style=for-the-badge&logo=github)](https://github.com/RamNamburi9)
 [![VS Code](https://img.shields.io/badge/VS_Code-Extension_Author-007ACC?style=for-the-badge&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=rnamburi.toolpilot)
@@ -14,22 +14,34 @@
 - AI-assisted developer workflows with controlled tool execution
 - Evidence-grounded incident analysis and auditable reporting
 - .NET applications with clear security and data-handling boundaries
-- Focused web experiences that stay lightweight and understandable
+- Local-first tools and focused web experiences that stay understandable
 
 ## Featured projects
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
 | [ToolPilot](https://github.com/RamNamburi9/ToolPilot) | A VS Code extension for autonomous, multi-round tool-calling agents using GitHub Copilot models and external scripts | JavaScript, VS Code API, Python |
+| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Deterministic surveillance rules, reproducible evidence, transactional outbox patterns, hybrid RAG, and an analyst workflow over synthetic data | .NET 10, PostgreSQL, Angular, RAG |
 | [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Import, review, analyze, and publish incident data through deterministic, auditable workflows | .NET 10, Razor Pages, EF Core, ClosedXML, SignalR |
 | [Evidence Triage Engine](https://github.com/RamNamburi9/evidence-triage-engine) | Typed evidence collection, grounded investigation, replayable traces, and honest escalation | Python, Pydantic, pytest, MCP |
-| [Market Momentum Dashboard](https://github.com/RamNamburi9/hottest-stocks-feed) | A responsive, credential-free market dashboard demo with filtering, search, and simulated updates | HTML, CSS, JavaScript |
+| [RootMind Estate Lab](https://github.com/RamNamburi9/rootmind-estate-lab) | Repository intelligence, retrieval benchmarks, provenance checks, federation, and generated specialist tools | Python, MCP, tree-sitter |
+| [Family Activity Radar](https://github.com/RamNamburi9/family-activity-radar) | A privacy-conscious, age-aware activity planner with configurable sources, safety checks, and local storage | Next.js, TypeScript, SQLite |
+
+### More public labs
+
+[Paper Investment Lab](https://github.com/RamNamburi9/paper-investment-lab) ·
+[Personal Life OS](https://github.com/RamNamburi9/personal-life-os) ·
+[Curiosity Arcade](https://github.com/RamNamburi9/curiosity-arcade) ·
+[Zero-to-Signal](https://github.com/RamNamburi9/zero-to-signal) ·
+[Mind Model Lab](https://github.com/RamNamburi9/mind-model-lab) ·
+[Tiny Oracle](https://github.com/RamNamburi9/tiny-oracle)
 
 ## Current focus
 
 ```text
 AI agents          → constrained tools, typed outputs, observable execution
 Incident systems   → evidence ledgers, deterministic metrics, review workflows
+Local-first apps   → explicit privacy boundaries, synthetic demos, offline value
 Developer UX       → simple setup, strong documentation, useful failure modes
 ```
 
