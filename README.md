@@ -2,7 +2,7 @@
 
 # Hi, I'm Ram Namburi 👋
 
-### Software engineer building practical AI systems, local-first products, developer tools, and auditable .NET applications
+### .NET engineer building reliable backend systems, auditable data workflows, and pragmatic AI integrations
 
 [![GitHub](https://img.shields.io/badge/GitHub-RamNamburi9-181717?style=for-the-badge&logo=github)](https://github.com/RamNamburi9)
 [![VS Code](https://img.shields.io/badge/VS_Code-Extension_Author-007ACC?style=for-the-badge&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=rnamburi.toolpilot)
@@ -11,38 +11,48 @@
 
 ## What I build
 
-- AI-assisted developer workflows with controlled tool execution
-- Evidence-grounded incident analysis and auditable reporting
-- .NET applications with clear security and data-handling boundaries
-- Local-first tools and focused web experiences that stay understandable
+- ASP.NET Core applications with explicit domain boundaries and testable workflows
+- EF Core and SQL-backed systems with deterministic reporting and audit trails
+- Reliable ingestion, validation, outbox, concurrency, and recovery patterns
+- AI-assisted features kept behind typed interfaces and deterministic controls
 
-## Featured projects
+## .NET engineering
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [ToolPilot](https://github.com/RamNamburi9/ToolPilot) | A VS Code extension for autonomous, multi-round tool-calling agents using GitHub Copilot models and external scripts | JavaScript, VS Code API, Python |
-| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Deterministic surveillance rules, reproducible evidence, transactional outbox patterns, hybrid RAG, and an analyst workflow over synthetic data | .NET 10, PostgreSQL, Angular, RAG |
-| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Import, review, analyze, and publish incident data through deterministic, auditable workflows | .NET 10, Razor Pages, EF Core, ClosedXML, SignalR |
-| [Evidence Triage Engine](https://github.com/RamNamburi9/evidence-triage-engine) | Typed evidence collection, grounded investigation, replayable traces, and honest escalation | Python, Pydantic, pytest, MCP |
-| [RootMind Estate Lab](https://github.com/RamNamburi9/rootmind-estate-lab) | Repository intelligence, retrieval benchmarks, provenance checks, federation, and generated specialist tools | Python, MCP, tree-sitter |
-| [Family Activity Radar](https://github.com/RamNamburi9/family-activity-radar) | A privacy-conscious, age-aware activity planner with configurable sources, safety checks, and local storage | Next.js, TypeScript, SQLite |
+| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Substantial portfolio reference implementation with idempotent ingestion, transactional outbox processing, deterministic rules, audit history, PostgreSQL integration tests, and an Angular analyst UI | .NET 10, ASP.NET Core, EF Core, PostgreSQL, Angular |
+| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Synthetic incident imports, controlled enrichment, deterministic dashboards, versioned reports, and local/hosted database options | .NET 10, Razor Pages, EF Core, ClosedXML, SignalR |
 
-### More public labs
+These are engineering reference implementations built with synthetic data. They
+demonstrate architecture and testing choices; they are not production deployments
+or representations of an employer's systems.
 
-[Paper Investment Lab](https://github.com/RamNamburi9/paper-investment-lab) ·
-[Personal Life OS](https://github.com/RamNamburi9/personal-life-os) ·
-[Curiosity Arcade](https://github.com/RamNamburi9/curiosity-arcade) ·
-[Zero-to-Signal](https://github.com/RamNamburi9/zero-to-signal) ·
-[Mind Model Lab](https://github.com/RamNamburi9/mind-model-lab) ·
-[Tiny Oracle](https://github.com/RamNamburi9/tiny-oracle)
+## AI and developer tooling
+
+| Project | Scope | Stack |
+|---|---|---|
+| [ToolPilot](https://github.com/RamNamburi9/ToolPilot) | VS Code extension for controlled multi-round tool-calling workflows | JavaScript, VS Code API, Python |
+| [Evidence Triage Engine](https://github.com/RamNamburi9/evidence-triage-engine) | Research prototype for typed evidence collection, grounded conclusions, replayable traces, and explicit escalation | Python, Pydantic, pytest, MCP |
+| [RootMind Estate Lab](https://github.com/RamNamburi9/rootmind-estate-lab) | Research lab for repository indexing, retrieval benchmarks, provenance, and specialist-tool experiments | Python, MCP, tree-sitter |
+
+## Hobby and product experiments
+
+Smaller personal prototypes built to explore product ideas and local-first UX:
+[Family Activity Radar](https://github.com/RamNamburi9/family-activity-radar),
+[Paper Investment Lab](https://github.com/RamNamburi9/paper-investment-lab),
+[Personal Life OS](https://github.com/RamNamburi9/personal-life-os),
+[Curiosity Arcade](https://github.com/RamNamburi9/curiosity-arcade),
+[Zero-to-Signal](https://github.com/RamNamburi9/zero-to-signal),
+[Mind Model Lab](https://github.com/RamNamburi9/mind-model-lab), and
+[Tiny Oracle](https://github.com/RamNamburi9/tiny-oracle).
 
 ## Current focus
 
 ```text
-AI agents          → constrained tools, typed outputs, observable execution
-Incident systems   → evidence ledgers, deterministic metrics, review workflows
-Local-first apps   → explicit privacy boundaries, synthetic demos, offline value
-Developer UX       → simple setup, strong documentation, useful failure modes
+ASP.NET Core       → modular boundaries, APIs, background processing, security
+Data reliability   → EF Core, PostgreSQL, SQL Server, idempotency, auditability
+AI integration     → constrained tools, grounded outputs, observable execution
+Engineering UX     → reproducible setup, useful failures, honest limitations
 ```
 
 ## Technologies
