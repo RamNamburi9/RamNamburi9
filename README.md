@@ -2,76 +2,60 @@
 
 # Hi, I'm Ram Namburi 👋
 
-### .NET engineer building reliable backend systems, auditable data workflows, and pragmatic AI integrations
+### Senior .NET backend engineer — C# · ASP.NET Core · SQL Server / PostgreSQL · Azure · messaging
 
+13+ years building enterprise backend systems in logistics, financial services, and procurement SaaS.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ramnamburi9-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramnamburi9/)
 [![GitHub](https://img.shields.io/badge/GitHub-RamNamburi9-181717?style=for-the-badge&logo=github)](https://github.com/RamNamburi9)
-[![VS Code](https://img.shields.io/badge/VS_Code-Extension_Author-007ACC?style=for-the-badge&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=rnamburi.toolpilot)
 
 </div>
 
 ## What I build
 
-- ASP.NET Core applications with explicit domain boundaries and testable workflows
-- EF Core and SQL-backed systems with deterministic reporting and audit trails
-- Reliable ingestion, validation, outbox, concurrency, and recovery patterns
-- AI-assisted features kept behind typed interfaces and deterministic controls
+- ASP.NET Core services and REST APIs with explicit domain boundaries, dependency injection, and tests you can trust
+- Data-correct systems on EF Core + SQL Server / PostgreSQL: transactions, isolation levels, optimistic concurrency, idempotent writes
+- Event-driven integration — transactional outbox, at-least-once consumers, inbox deduplication — over Azure Service Bus and RabbitMQ, with Kafka in the lab
+- Workflow orchestration (Camunda BPMN) and high-volume document pipelines (10,000+ files/day)
+- Azure at the application level: App Service, Functions, Logic Apps, Azure DevOps pipelines
+- Shared NuGet packages and libraries that make other teams faster
 
-## .NET engineering
+## .NET reference implementations
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Substantial portfolio reference implementation with idempotent ingestion, transactional outbox processing, deterministic rules, audit history, PostgreSQL integration tests, and an Angular analyst UI | .NET 10, ASP.NET Core, EF Core, PostgreSQL, Angular |
-| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Synthetic incident imports, controlled enrichment, deterministic dashboards, versioned reports, and local/hosted database options | .NET 10, Razor Pages, EF Core, ClosedXML, SignalR |
+| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Modular monolith: idempotent ingestion, transactional outbox, deterministic rules engine, auditable alerts — 154 unit tests in CI plus PostgreSQL integration tests | .NET 10, ASP.NET Core, EF Core, PostgreSQL, Angular |
+| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Auditable import → controlled review → deterministic dashboards → versioned report snapshots, with read-only source fields and tracked changes | .NET 10, ASP.NET Core Razor Pages, EF Core, SQL Server / SQLite, SignalR |
+| [Azure App Service API Demo](https://github.com/RamNamburi9/AzureAppSerivce) | Minimal Web API with Microsoft Entra ID authentication, CORS, and App Service hosting | ASP.NET Core, Azure |
+| [Secure Blazor Client](https://github.com/RamNamburi9/SecureBlazorUIApp) | Blazor WebAssembly client calling a protected API with MSAL tokens (historical proof of concept) | Blazor, MSAL |
 
-These are engineering reference implementations built with synthetic data. They
-demonstrate architecture and testing choices; they are not production deployments
-or representations of an employer's systems.
+These are engineering reference implementations built with synthetic data. They demonstrate architecture and testing choices; they are not production deployments or representations of any employer's systems.
 
-## AI and developer tooling
+## Learning in public
 
-| Project | Scope | Stack |
-|---|---|---|
-| [ToolPilot](https://github.com/RamNamburi9/ToolPilot) | VS Code extension for controlled multi-round tool-calling workflows | JavaScript, VS Code API, Python |
-| [Evidence Triage Engine](https://github.com/RamNamburi9/evidence-triage-engine) | Research prototype for typed evidence collection, grounded conclusions, replayable traces, and explicit escalation | Python, Pydantic, pytest, MCP |
-| [RootMind Estate Lab](https://github.com/RamNamburi9/rootmind-estate-lab) | Research lab for repository indexing, retrieval benchmarks, provenance, and specialist-tool experiments | Python, MCP, tree-sitter |
+[**Career OS**](https://ramnamburi9.github.io/careeros-portal/) — a self-built backend curriculum I study from every day: transactions and isolation, messaging and the outbox pattern, Kafka, memory and the GC, the CPU and data layout, system design. 39 chapters with runnable C# labs, spaced-repetition drills, and plain-language "from zero" tutorials, fact-checked against primary sources.
 
-## Hobby and product experiments
+## Tooling
 
-Smaller personal prototypes built to explore product ideas and local-first UX:
-[Family Activity Radar](https://github.com/RamNamburi9/family-activity-radar),
-[Paper Investment Lab](https://github.com/RamNamburi9/paper-investment-lab),
-[Personal Life OS](https://github.com/RamNamburi9/personal-life-os),
-[Curiosity Arcade](https://github.com/RamNamburi9/curiosity-arcade),
-[Zero-to-Signal](https://github.com/RamNamburi9/zero-to-signal),
-[Mind Model Lab](https://github.com/RamNamburi9/mind-model-lab), and
-[Tiny Oracle](https://github.com/RamNamburi9/tiny-oracle).
-
-## Current focus
-
-```text
-ASP.NET Core       → modular boundaries, APIs, background processing, security
-Data reliability   → EF Core, PostgreSQL, SQL Server, idempotency, auditability
-AI integration     → constrained tools, grounded outputs, observable execution
-Engineering UX     → reproducible setup, useful failures, honest limitations
-```
+[ToolPilot](https://github.com/RamNamburi9/ToolPilot) — a VS Code extension I published on the Marketplace. I use agentic coding tools daily as working practice; the engineering judgment stays mine.
 
 ## Technologies
 
 <p>
   <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
   <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+  <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="Azure" src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+  <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 </p>
 
 ## Engineering principles
 
+- Correctness first: transactions, idempotency, and auditability are designed in, not patched on.
 - Keep private data, credentials, generated files, and environment identifiers out of source control.
-- Prefer deterministic behavior and explicit validation around AI-assisted workflows.
 - Design automation with dry runs, small blast radiuses, observable results, and recovery paths.
 - Publish honest project status, reproducible setup instructions, and known limitations.
 
