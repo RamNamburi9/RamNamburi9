@@ -8,6 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ramnamburi9-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramnamburi9/)
 [![GitHub](https://img.shields.io/badge/GitHub-RamNamburi9-181717?style=for-the-badge&logo=github)](https://github.com/RamNamburi9)
+[![Website](https://img.shields.io/badge/Website-ramnamburi.com-10B981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ramnamburi.com)
 
 </div>
 
@@ -24,16 +25,16 @@
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Modular monolith: idempotent ingestion, transactional outbox, deterministic rules engine, auditable alerts — 154 unit tests in CI plus PostgreSQL integration tests | .NET 10, ASP.NET Core, EF Core, PostgreSQL, Angular |
-| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Auditable import → controlled review → deterministic dashboards → versioned report snapshots, with read-only source fields and tracked changes | .NET 10, ASP.NET Core Razor Pages, EF Core, SQL Server / SQLite, SignalR |
+| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Modular monolith: idempotent ingestion, transactional outbox, deterministic rules engine, auditable alerts — 154 u[...]
+| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Auditable import → controlled review → deterministic dashboards → versioned report snapshots[...]
 | [Azure App Service API Demo](https://github.com/RamNamburi9/AzureAppSerivce) | Minimal Web API with Microsoft Entra ID authentication, CORS, and App Service hosting | ASP.NET Core, Azure |
 | [Secure Blazor Client](https://github.com/RamNamburi9/SecureBlazorUIApp) | Blazor WebAssembly client calling a protected API with MSAL tokens (historical proof of concept) | Blazor, MSAL |
 
-These are engineering reference implementations built with synthetic data. They demonstrate architecture and testing choices; they are not production deployments or representations of any employer's systems.
+These are engineering reference implementations built with synthetic data. They demonstrate architecture and testing choices; they are not production deployments or representations of any employer's s[...]
 
 ## Learning in public
 
-[**Career OS**](https://ramnamburi9.github.io/careeros-portal/) — a self-built backend curriculum I study from every day: transactions and isolation, messaging and the outbox pattern, Kafka, memory and the GC, the CPU and data layout, system design. 39 chapters with runnable C# labs, spaced-repetition drills, and plain-language "from zero" tutorials, fact-checked against primary sources.
+[**Career OS**](https://ramnamburi9.github.io/careeros-portal/) — a self-built backend curriculum I study from every day: transactions and isolation, messaging and the outbox pattern, Kafka, memory [...]
 
 ## Tooling
 
