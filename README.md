@@ -10,6 +10,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-RamNamburi9-181717?style=for-the-badge&logo=github)](https://github.com/RamNamburi9)
 [![Website](https://img.shields.io/badge/Website-ramnamburi.com-10B981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ramnamburi.com)
 
+[**Portfolio and engineering case studies**](https://ram-engineering-portfolio.vercel.app)
+
 </div>
 
 ## What I build
@@ -25,20 +27,29 @@
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Modular monolith: idempotent ingestion, transactional outbox, deterministic rules engine, auditable alerts — 154 u[...]
-| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Auditable import → controlled review → deterministic dashboards → versioned report snapshots[...]
+| [TraceLedger demo](https://traceledger-demo.onrender.com) | Synthetic embedded-finance workflows, deterministic ledger/holds, tenant-scoped idempotency and reviewed operational AI. Public demo is read-only and labeled Replay; implementation source remains private. | .NET 10, ASP.NET Core, Angular, PostgreSQL |
+| [Trade Surveillance Lab](https://github.com/RamNamburi9/trade-surveillance-lab) | Idempotent ingestion, transactional outbox, deterministic rules and immutable alert evidence. The README reports 154 unit tests in CI; the PostgreSQL integration suite has its own local scope. | .NET 10, ASP.NET Core, Angular, EF Core, PostgreSQL |
+| [Incident Intelligence Workbench](https://github.com/RamNamburi9/incident-intelligence-workbench) | Auditable imports, controlled review, deterministic dashboards and versioned report snapshots over synthetic incident data. | .NET 10, Razor Pages, EF Core, SQL Server / SQLite, SignalR |
 | [Azure App Service API Demo](https://github.com/RamNamburi9/AzureAppSerivce) | Minimal Web API with Microsoft Entra ID authentication, CORS, and App Service hosting | ASP.NET Core, Azure |
 | [Secure Blazor Client](https://github.com/RamNamburi9/SecureBlazorUIApp) | Blazor WebAssembly client calling a protected API with MSAL tokens (historical proof of concept) | Blazor, MSAL |
 
-These are engineering reference implementations built with synthetic data. They demonstrate architecture and testing choices; they are not production deployments or representations of any employer's s[...]
+These engineering reference implementations use synthetic data. They show architecture and testing choices, not employer systems, production readiness or regulatory certification. TraceLedger has a bounded public read-only deployment; its full platform backlog remains open.
 
-## Learning in public
+## Applied AI
 
-[**Career OS**](https://ramnamburi9.github.io/careeros-portal/) — a self-built backend curriculum I study from every day: transactions and isolation, messaging and the outbox pattern, Kafka, memory [...]
+[**Evidence Triage Engine**](https://github.com/RamNamburi9/evidence-triage-engine) — a Python prototype with typed evidence, constrained investigation tools, grounding validation, replayable traces and explicit escalation. Its offline fixtures are separate from live model or production-connector claims.
+
+The newer projects use AI-assisted development. I keep generated explanations separate from deterministic decisions, source records and executed checks. A project test result is bounded evidence of software behavior, not a certification of personal mastery.
+
+## Learning and practice
+
+[**Career OS**](https://ramnamburi9.github.io/careeros-portal/) — a backend curriculum covering transactions and isolation, messaging and the outbox pattern, Kafka, memory/GC and system design, with runnable C# labs and drills.
+
+My personal learning labs and practice records stay private. I use a prediction, a small change, a failure/recovery experiment and an explanation in my own words as a practice loop. The [public portfolio](https://ram-engineering-portfolio.vercel.app) carries selected project evidence and current limits.
 
 ## Tooling
 
-[ToolPilot](https://github.com/RamNamburi9/ToolPilot) — a VS Code extension I published on the Marketplace. I use agentic coding tools daily as working practice; the engineering judgment stays mine.
+[ToolPilot](https://github.com/RamNamburi9/ToolPilot) — a VS Code extension I published on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=rnamburi.toolpilot). I use agentic coding tools daily as working practice; the engineering judgment stays mine.
 
 ## Technologies
 
